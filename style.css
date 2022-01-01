@@ -1,0 +1,21 @@
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stone{
+    margin-right: 10px;
+}
+
+.paper{
+
+}
+
+.scissor{
+    margin-left: 16px;
+}
+
+.winner{
+    text-align: center;
+}
