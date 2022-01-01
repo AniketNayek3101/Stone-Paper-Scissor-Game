@@ -7,9 +7,10 @@ function game(user){
     document.querySelector('.winn').innerText = "Computer won!!!";
     }
     else {
-    document.querySelector('.winn').innerText = "Its a tie";
+    document.querySelector('.winn').innerText = "It's a tie";
     }
 }
+
 
 const stone = document.getElementsByClassName('stone');
 const paper = document.getElementsByClassName('paper');
