@@ -9,6 +9,21 @@ function game(user) {
     else {
         document.querySelector('.winn').innerText = "It's a tie";
     }
+    var img = document. createElement('img');
+
+    if(compchoice == 'r')
+    {
+        img.src = './Images/stone.jpeg';
+    }
+    else if(compchoice == 'p')
+    {
+        img.src = './Images/paper.jpeg'
+    }
+    else {
+        img.src = './Images/scissor.jpeg'
+    }
+    document.querySelector('#cc1').innerText = 'Computer\'s choice';
+    document. getElementById('cc1'). appendChild(img);
 }
 
 
